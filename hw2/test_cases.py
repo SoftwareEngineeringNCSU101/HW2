@@ -1,4 +1,3 @@
-import pytest
 from hw2_debugging import merge_sort
 
 def test_merge_sort_unsorted():
