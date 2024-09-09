@@ -15,8 +15,9 @@ def merge_sort(input_arr):
     Returns:
         list: Sorted list of elements.
     """
-    if len(input_arr) == 1:
+    if len(input_arr) <= 1:
         return input_arr
+
 
     half = len(input_arr) // 2
 
@@ -58,5 +59,4 @@ def recombine(left_arr, right_arr):
 
 arr = rand.random_array([None] * 20)
 arr_out = merge_sort(arr)
-
 print(arr_out)
