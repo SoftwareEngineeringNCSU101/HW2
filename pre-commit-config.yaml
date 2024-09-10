@@ -1,0 +1,30 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.3.0  # Use the latest version available
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-yaml
+
+  # autopep8 configuration
+  - repo: https://github.com/pre-commit/mirrors-autopep8
+    rev: v1.5.7
+    hooks:
+      - id: autopep8
+        name: autopep8
+        files: ^hw2/.*\.py$  # Check only Python files in the hw2 folder
+
+  - repo: https://github.com/PyCQA/bandit
+    rev: 1.7.4
+    hooks:
+      - id: bandit
+        name: bandit
+        files: ^hw2/.*\.py$  # Check only Python files in the hw2 folder
+
+  # pylint configuration
+  - repo: https://github.com/pre-commit/mirrors-pylint
+    rev: v2.6.2
+    hooks:
+      - id: pylint
+        name: pylint
+        files: ^hw2/.*\.py$  # Check only Python files in the hw2 folder
