@@ -7,4 +7,3 @@ rand.py:3:0: W0105: String statement has no effect (pointless-string-statement)
 
 ------------------------------------------------------------------
 Your code has been rated at 8.82/10 (previous run: 7.58/10, +1.25)
-

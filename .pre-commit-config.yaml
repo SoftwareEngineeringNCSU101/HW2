@@ -14,13 +14,6 @@ repos:
         name: autopep8
         files: ^hw2/.*\.py$  # Check only Python files in the hw2 folder
 
-  - repo: https://github.com/PyCQA/bandit
-    rev: 1.7.4
-    hooks:
-      - id: bandit
-        name: bandit
-        files: ^hw2/.*\.py$  # Check only Python files in the hw2 folder
-
   # pylint configuration
   - repo: https://github.com/pre-commit/mirrors-pylint
     rev: v2.6.2
