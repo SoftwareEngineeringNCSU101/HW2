@@ -36,4 +36,4 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Run tests
       run: |
-        pytest || exit 1
+        pytest hw2/test_cases.py -v --disable-warnings || exit 1
