@@ -1,4 +1,9 @@
+"""
+This file contains test cases for the hw2_debudding.py file
+"""
+
 from hw2_debugging import merge_sort
+
 
 def test_merge_sort_unsorted():
     """
@@ -9,6 +14,7 @@ def test_merge_sort_unsorted():
     expected_list = [1, 1, 2, 3, 3, 4, 5, 5, 5, 6, 9]
     assert sorted_list == expected_list
 
+
 def test_merge_sort_sorted():
     """
     Test merge_sort with an already sorted list.
@@ -17,6 +23,7 @@ def test_merge_sort_sorted():
     result = merge_sort(sorted_list)
     assert result == sorted_list
 
+
 def test_merge_sort_empty():
     """
     Test merge_sort with an empty list.
@@ -24,4 +31,3 @@ def test_merge_sort_empty():
     empty_list = []
     result = merge_sort(empty_list)
     assert result == empty_list
-

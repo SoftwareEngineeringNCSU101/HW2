@@ -11,6 +11,3 @@ Repository for SE homework 2
 ![CI](https://img.shields.io/github/workflow/status/SoftwareEngineeringNCSU101/HW2/CI)
 ![pylint](https://img.shields.io/badge/pylint-pass-green)
 ![bandit](https://img.shields.io/badge/bandit-pass-green)
-
-
-
