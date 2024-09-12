@@ -1,36 +1,37 @@
-import rand
-
 """
-This module implements the merge sort algorithm to sort an array. 
+This module implements the merge sort algorithm to sort an array.
 It contains functions for recursive sorting and recombining sorted arrays.
 """
+
+import rand
+
 
 def merge_sort(input_arr):
     """
     Recursively sorts an array using the merge sort algorithm.
-    
+
     Args:
         input_arr (list): List of elements to sort.
-    
+
     Returns:
         list: Sorted list of elements.
     """
     if len(input_arr) <= 1:
         return input_arr
 
-
     half = len(input_arr) // 2
 
     return recombine(merge_sort(input_arr[:half]), merge_sort(input_arr[half:]))
 
+
 def recombine(left_arr, right_arr):
     """
     Merges two sorted arrays into a single sorted array.
-    
+
     Args:
         left_arr (list): First sorted list of elements.
         right_arr (list): Second sorted list of elements.
-    
+
     Returns:
         list: Combined and sorted list of elements.
     """
@@ -56,6 +57,7 @@ def recombine(left_arr, right_arr):
         left_index += 1
 
     return merged_arr
+
 
 arr = rand.random_array([None] * 20)
 arr_out = merge_sort(arr)

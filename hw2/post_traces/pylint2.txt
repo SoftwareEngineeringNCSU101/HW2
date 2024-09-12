@@ -11,4 +11,3 @@ rand.py:6:23: W1510: 'subprocess.run' used without explicitly defining the value
 
 ------------------------------------------------------------------
 Your code has been rated at 7.58/10 (previous run: 4.52/10, +3.06)
-

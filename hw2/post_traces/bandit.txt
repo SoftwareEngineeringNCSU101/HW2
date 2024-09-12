@@ -7,7 +7,7 @@ Test results:
    More Info: https://bandit.readthedocs.io/en/1.7.9/blacklists/blacklist_imports.html#b404-import-subprocess
    Location: .\rand.py:1:0
 1	import subprocess
-2	
+2
 3	"""
 
 --------------------------------------------------
