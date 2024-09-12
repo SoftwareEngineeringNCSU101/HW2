@@ -1,9 +1,3 @@
-************* Module hw2_debugging
-hw2_debugging.py:1:0: C0114: Missing module docstring (missing-module-docstring)
-hw2_debugging.py:3:0: W0105: String statement has no effect (pointless-string-statement)
-************* Module rand
-rand.py:1:0: C0114: Missing module docstring (missing-module-docstring)
-rand.py:3:0: W0105: String statement has no effect (pointless-string-statement)
 
-------------------------------------------------------------------
-Your code has been rated at 8.82/10 (previous run: 7.58/10, +1.25)
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 5.16/10, +4.84)
