@@ -8,9 +8,9 @@ Repository for SE homework 2
 
 ![CI](https://img.shields.io/github/actions/workflow/status/SoftwareEngineeringNCSU101/HW2/python-test.yml?branch=main)
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen)](https://pre-commit.com)
-[![flake8](https://img.shields.io/badge/flake8-passing-brightgreen)](https://flake8.pycqa.org)
-[![pylint](https://img.shields.io/badge/pylint-passing-green)](https://github.com/SoftwareEngineeringNCSU101/HW2/actions/workflows/python-lint.yml)
-[![bandit](https://img.shields.io/badge/bandit-passing-green)](https://github.com/SoftwareEngineeringNCSU101/HW2/actions/workflows/python-security.yml)
+[![pylint](https://img.shields.io/badge/pylint-checked-brightgreen)](https://github.com/SoftwareEngineeringNCSU101/HW2/blob/main/.pre-commit-config.yaml)
+[![flake8](https://img.shields.io/badge/flake8-checked-brightgreen)](https://github.com/SoftwareEngineeringNCSU101/HW2/blob/main/.pre-commit-config.yaml)
+[![bandit](https://img.shields.io/badge/bandit-checked-brightgreen)](https://github.com/SoftwareEngineeringNCSU101/HW2/blob/main/.pre-commit-config.yaml)
 
 ## Pre-commit hooks
 This project uses [pre-commit](https://pre-commit.com) for automated code quality checks. The following hooks are configured:
