@@ -27,4 +27,4 @@ jobs:
 
       - name: Run linting
         run: |
-          pyflakes src/hw2/hw2_debugging.py --exit-zero
+          pyflakes hw2/hw2_debugging.py --exit-zero

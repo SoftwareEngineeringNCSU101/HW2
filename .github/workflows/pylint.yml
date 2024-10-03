@@ -27,4 +27,4 @@ jobs:
 
       - name: Run linting
         run: |
-          pylint src/hw2/hw2_debugging.py --exit-zero
+          pylint hw2/hw2_debugging.py --exit-zero
